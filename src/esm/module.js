@@ -1,6 +1,6 @@
 // 模块默认导出
 function defaultFunc() {
-    return "SU 7";
+	return 'SU 7'
 }
 
 export default defaultFunc
