@@ -5,12 +5,12 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"dev:cjs": "node src/cjs/index.cjs",
-		"dev:esm": "node src/esm",
 		"start": "node server",
-		"compile": "babel src/babel --out-dir compiled",
+		"dev:ts": "tsc src/ts/index.ts",
+		"dev:esm": "node src/esm",
+		"dev:cjs": "node src/cjs/index.cjs",
 		"prettier": "prettier --write .",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"compile": "babel src/babel --out-dir compiled"
 	},
 	"keywords": [],
 	"author": "",

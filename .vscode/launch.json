@@ -7,7 +7,7 @@
 		{
 			"type": "msedge",
 			"request": "launch",
-			"name": "Launch Chrome against localhost",
+			"name": "Launch against localhost",
 			"url": "http://localhost:8080",
 			"webRoot": "${workspaceFolder\/server}"
 		}

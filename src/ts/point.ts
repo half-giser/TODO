@@ -1,0 +1,18 @@
+// TS Class 既是一个抽象类（使用关键字: new UserBase("kenny") 实例化对象）
+// 也是一种类型（使用 :UserBase，描述变量类型）
+// 当声明的类 作为类型使用的时候，该类型只包含其中的实例属性|实例方法
+class Point {
+    x: number
+    y: number
+
+    constructor(x: number, y: number) {
+        this.x = x;
+        this.y = y;
+    }
+
+    getDistanceFromZero() {
+        return Math.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2)) ;
+    }
+}
+
+export default Point;
