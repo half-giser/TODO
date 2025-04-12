@@ -16,7 +16,12 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"md5": "^2.3.0"
+		"@vue/test-utils": "^2.4.6",
+		"md5": "^2.3.0",
+		"vue": "^3.5.13",
+		"vue-loader": "^17.4.2",
+		"vue-router": "^4.5.0",
+		"vuex": "^4.1.0"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.27.0",
